@@ -5,14 +5,29 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h1>Welcome to my site, click these links to artists</h1>
-        <section>
-          <Link to="/JamieXX">Jamie XX</Link>
-          <Link to="/Flume">Flume</Link>
-          <Link to="/Porter">Porter</Link>
-          <Link to="/Charles">CharlestheFirst</Link>
-          <Link to="/ZedsDead">Zeds Dead</Link>
+        <header>The Music Space</header>
+        <section className="Nav">
+          <Link className="links" to="/JamieXX">
+            Jamie XX
+          </Link>
+          <Link className="links" to="/Flume">
+            Flume
+          </Link>
+          <Link className="links" to="/Porter">
+            Porter
+          </Link>
+          <Link className="links" to="/Charles">
+            CharlestheFirst
+          </Link>
+          <Link className="links" to="/ZedsDead">
+            Zeds Dead
+          </Link>
         </section>
+        <footer>
+          <Link className="links" to="/">
+            Home
+          </Link>
+        </footer>
       </div>
     )
   }
