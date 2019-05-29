@@ -24,7 +24,9 @@ class ZedsDead extends Component {
               Zeds Dead
             </Link>
           </section>
-          <div className="content" />
+          <div className="content">
+            <h2 className="name">Zeds Dead</h2>
+          </div>
           <footer>
             <Link className="links" to="/">
               Home

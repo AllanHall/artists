@@ -24,7 +24,9 @@ class Flume extends Component {
               Zeds Dead
             </Link>
           </section>
-          <div className="content" />
+          <div className="content">
+            <h2 className="name">Flume</h2>
+          </div>
           <footer>
             <Link className="links" to="/">
               Home

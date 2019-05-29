@@ -24,7 +24,9 @@ class JamieXX extends Component {
               Zeds Dead
             </Link>
           </section>
-          <div className="content" />
+          <div className="content">
+            <h2 className="name">Jamie XX</h2>
+          </div>
           <footer>
             <Link className="links" to="/">
               Home

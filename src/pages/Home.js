@@ -23,6 +23,7 @@ class Home extends Component {
             Zeds Dead
           </Link>
         </section>
+        <div className="content" />
         <footer>
           <Link className="links" to="/">
             Home
