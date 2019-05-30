@@ -36,7 +36,12 @@ class Flume extends Component {
                 Flume came out with a new album/mixtape in 2019 titled "Hi This
                 Is Flume"
               </p>
-              <img className="image" src={flume} alt="album cover" />
+              <a
+                href="https://open.spotify.com/album/2Vx9FC6Um8i6kEtY7HNswB"
+                target="_blank"
+              >
+                <img className="image" src={flume} alt="skin album cover" />
+              </a>
               <p>His previous album was "Skin" which released in 2015.</p>
             </div>
           </div>

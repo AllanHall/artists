@@ -36,7 +36,12 @@ class JamieXX extends Component {
                 Jamie XX is the drummer for The XX and also has his own solo
                 project.
               </p>
-              <img className="image" src={jamie} alt="album cover" />
+              <a
+                href="https://open.spotify.com/album/01uabHpYa9AA55wc6AwRQL"
+                target="_blank"
+              >
+                <img className="image" src={jamie} alt="in color album cover" />
+              </a>
               <p>
                 "In Colour" released in 2015 and was his only album ever
                 released.

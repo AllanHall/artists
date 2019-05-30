@@ -33,7 +33,12 @@ class Porter extends Component {
             <hr />
             <div className="album">
               <p>Porter's last album, Worlds, came out in 2014.</p>
-              <img className="image" src={porter} alt="album cover" />
+              <a
+                href="https://open.spotify.com/album/7AJPV0L05IyIBid97AvwVD"
+                target="_blank"
+              >
+                <img className="image" src={porter} alt="worlds album cover" />
+              </a>
               <p>
                 He created a new alias called "Virtual Self", to pursue a
                 different style of music.

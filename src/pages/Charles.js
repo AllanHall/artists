@@ -36,7 +36,16 @@ class Charles extends Component {
                 CharlestheFirst's most recent album, The Ascent, debuted in
                 2018.
               </p>
-              <img className="image" src={charles} alt="album cover" />
+              <a
+                href="https://open.spotify.com/album/4yWMIuVAa9BFlCWTRHYOEp"
+                target="_blank"
+              >
+                <img
+                  className="image"
+                  src={charles}
+                  alt="the ascent album cover"
+                />
+              </a>
               <p>
                 He is an up and comer and has been headlining more shows every
                 year.

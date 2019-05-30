@@ -36,7 +36,16 @@ class Kaskade extends Component {
                 Kaskade's most recent album was "Automatic" and it released in
                 2015.
               </p>
-              <img className="image" src={kaskade} alt="album cover" />
+              <a
+                href="https://open.spotify.com/album/02NhNhhyNfv5OdlJw4jUpj"
+                target="_blank"
+              >
+                <img
+                  className="image"
+                  src={kaskade}
+                  alt="automatic album cover"
+                />
+              </a>
               <p>He also released a Christmas themed EP in 2017.</p>
             </div>
           </div>
