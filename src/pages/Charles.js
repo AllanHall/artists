@@ -32,9 +32,8 @@ class Charles extends Component {
             <h2 className="name">CharlestheFirst</h2>
             <hr />
             <div className="album">
-              <p>
-                CharlestheFirst's most recent album, The Ascent, debuted in
-                2018.
+              <p className="album-info">
+                Charles's most recent album, The Ascent, debuted in 2018.
               </p>
               <a
                 href="https://open.spotify.com/album/4yWMIuVAa9BFlCWTRHYOEp"
@@ -46,11 +45,12 @@ class Charles extends Component {
                   alt="the ascent album cover"
                 />
               </a>
-              <p>
+              <p className="album-info">
                 He is an up and comer and has been headlining more shows every
                 year.
               </p>
             </div>
+            <h3>Check out his spotify by clicking the album image!</h3>
           </div>
           <footer>
             <Link className="links" to="/">

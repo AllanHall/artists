@@ -32,7 +32,7 @@ class JamieXX extends Component {
             <h2 className="name">Jamie XX</h2>
             <hr />
             <div className="album">
-              <p>
+              <p className="album-info">
                 Jamie XX is the drummer for The XX and also has his own solo
                 project.
               </p>
@@ -42,11 +42,12 @@ class JamieXX extends Component {
               >
                 <img className="image" src={jamie} alt="in color album cover" />
               </a>
-              <p>
+              <p className="album-info">
                 "In Colour" released in 2015 and was his only album ever
                 released.
               </p>
             </div>
+            <h3>Check out his spotify by clicking the album image!</h3>
           </div>
           <footer>
             <Link className="links" to="/">

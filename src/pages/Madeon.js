@@ -32,7 +32,9 @@ class Madeon extends Component {
             <h2 className="name">Madeon</h2>
             <hr />
             <div className="album">
-              <p>Madeon's last album was "Adventure" back in 2015.</p>
+              <p className="album-info">
+                Madeon's last album was "Adventure" back in 2015.
+              </p>
               <a
                 href="https://open.spotify.com/album/3uKLwDjku2Us0c81LEmftR"
                 target="_blank"
@@ -43,10 +45,11 @@ class Madeon extends Component {
                   alt="adventure album cover"
                 />
               </a>
-              <p>
+              <p className="album-info">
                 He is rumored to be having a new album come out summer of 2019.
               </p>
             </div>
+            <h3>Check out his spotify by clicking the album image!</h3>
           </div>
           <footer>
             <Link className="links" to="/">

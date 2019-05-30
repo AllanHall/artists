@@ -27,7 +27,6 @@ header {
 .Nav {
   background-color: #495867;
   height: 4vh;
-  justify-content: center;
   display: flex;
   justify-content: space-between;
   padding-left: 12rem;
@@ -110,10 +109,47 @@ p {
   font-weight: bold;
 }
 
+h3 {
+  color: #f7f7ff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+}
+
 .logo {
   margin-top: 4vh;
 }
 
 .home-footer {
   margin-top: 44vh;
+}
+
+/* When background width hits 850 pixels reformat the page*/
+
+@media screen and (max-width: 850px) {
+  body {
+    background-repeat: repeat;
+  }
+  .Nav {
+    flex-direction: column;
+    height: 18vh;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .home-footer {
+    margin-top: 30vh;
+  }
+}
+
+/* When background width hits 595 px */
+
+@media screen and (max-width: 590px) {
+  .album-info {
+    font-size: 0px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
 }

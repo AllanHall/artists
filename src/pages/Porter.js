@@ -32,18 +32,21 @@ class Porter extends Component {
             <h2 className="name">Porter Robinson</h2>
             <hr />
             <div className="album">
-              <p>Porter's last album, Worlds, came out in 2014.</p>
+              <p className="album-info">
+                Porter's last album, Worlds, came out in 2014.
+              </p>
               <a
                 href="https://open.spotify.com/album/7AJPV0L05IyIBid97AvwVD"
                 target="_blank"
               >
                 <img className="image" src={porter} alt="worlds album cover" />
               </a>
-              <p>
+              <p className="album-info">
                 He created a new alias called "Virtual Self", to pursue a
                 different style of music.
               </p>
             </div>
+            <h3>Check out his spotify by clicking the album image!</h3>
           </div>
           <footer>
             <Link className="links" to="/">
