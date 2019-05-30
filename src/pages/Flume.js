@@ -32,9 +32,12 @@ class Flume extends Component {
             <h2 className="name">Flume</h2>
             <hr />
             <div className="album">
-              <p>Flume</p>
+              <p>
+                Flume came out with a new album/mixtape in 2019 titled "Hi This
+                Is Flume"
+              </p>
               <img className="image" src={flume} alt="album cover" />
-              <p>Album info</p>
+              <p>His previous album was "Skin" which released in 2015.</p>
             </div>
           </div>
           <footer>

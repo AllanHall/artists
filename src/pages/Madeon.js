@@ -32,9 +32,11 @@ class Madeon extends Component {
             <h2 className="name">Madeon</h2>
             <hr />
             <div className="album">
-              <p>Madeon</p>
+              <p>Madeon's last album was "Adventure" back in 2015.</p>
               <img className="image" src={madeon} alt="album cover" />
-              <p>Album info</p>
+              <p>
+                He is rumored to be having a new album come out summer of 2019.
+              </p>
             </div>
           </div>
           <footer>

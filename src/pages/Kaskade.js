@@ -32,9 +32,12 @@ class Kaskade extends Component {
             <h2 className="name">Kaskade</h2>
             <hr />
             <div className="album">
-              <p>Kaskade</p>
+              <p>
+                Kaskade's most recent album was "Automatic" and it released in
+                2015.
+              </p>
               <img className="image" src={kaskade} alt="album cover" />
-              <p>Album info</p>
+              <p>He also released a Christmas themed EP in 2017.</p>
             </div>
           </div>
           <footer>

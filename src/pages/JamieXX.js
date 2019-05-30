@@ -32,9 +32,15 @@ class JamieXX extends Component {
             <h2 className="name">Jamie XX</h2>
             <hr />
             <div className="album">
-              <p>Jamie XX</p>
+              <p>
+                Jamie XX is the drummer for The XX and also has his own solo
+                project.
+              </p>
               <img className="image" src={jamie} alt="album cover" />
-              <p>Album info</p>
+              <p>
+                "In Colour" released in 2015 and was his only album ever
+                released.
+              </p>
             </div>
           </div>
           <footer>
