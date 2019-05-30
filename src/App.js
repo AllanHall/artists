@@ -5,7 +5,8 @@ import JamieXX from './pages/JamieXX'
 import Flume from './pages/Flume'
 import Porter from './pages/Porter'
 import Charles from './pages/Charles'
-import ZedsDead from './pages/ZedsDead'
+import Kaskade from './pages/Kaskade'
+import Madeon from './pages/Madeon'
 
 class App extends Component {
   render() {
@@ -18,7 +19,8 @@ class App extends Component {
             <Route path="/Flume" exact component={Flume} />
             <Route path="/Porter" exact component={Porter} />
             <Route path="/Charles" exact component={Charles} />
-            <Route path="/ZedsDead" exact component={ZedsDead} />
+            <Route path="/Kaskade" exact component={Kaskade} />
+            <Route path="/Madeon" exact component={Madeon} />
           </Switch>
         </Router>
       </>

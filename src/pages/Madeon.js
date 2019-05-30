@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import madeon from '../images/madeon.jpg'
 
-class ZedsDead extends Component {
+class Madeon extends Component {
   render() {
     return (
       <>
@@ -15,17 +16,26 @@ class ZedsDead extends Component {
               Flume
             </Link>
             <Link className="links" to="/Porter">
-              Porter
+              Porter Robinson
             </Link>
             <Link className="links" to="/Charles">
               CharlestheFirst
             </Link>
-            <Link className="links" to="/ZedsDead">
-              Zeds Dead
+            <Link className="links" to="/Kaskade">
+              Kaskade
+            </Link>
+            <Link className="links" to="/Madeon">
+              Madeon
             </Link>
           </section>
           <div className="content">
-            <h2 className="name">Zeds Dead</h2>
+            <h2 className="name">Madeon</h2>
+            <hr />
+            <div className="album">
+              <p>Madeon</p>
+              <img className="image" src={madeon} alt="album cover" />
+              <p>Album info</p>
+            </div>
           </div>
           <footer>
             <Link className="links" to="/">
@@ -38,4 +48,4 @@ class ZedsDead extends Component {
   }
 }
 
-export default ZedsDead
+export default Madeon

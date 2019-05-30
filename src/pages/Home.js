@@ -14,17 +14,23 @@ class Home extends Component {
             Flume
           </Link>
           <Link className="links" to="/Porter">
-            Porter
+            Porter Robinson
           </Link>
           <Link className="links" to="/Charles">
             CharlestheFirst
           </Link>
-          <Link className="links" to="/ZedsDead">
-            Zeds Dead
+          <Link className="links" to="/Kaskade">
+            Kaskade
+          </Link>
+          <Link className="links" to="/Madeon">
+            Madeon
           </Link>
         </section>
-        <div className="content" />
-        <footer>
+        <div className="tagline">
+          <div>Expand Your Music Library</div>
+          <div className="logo">【=◈︿◈=】</div>
+        </div>
+        <footer className="home-footer">
           <Link className="links" to="/">
             Home
           </Link>

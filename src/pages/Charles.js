@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import charles from '../images/charles.jpg'
 
 class Charles extends Component {
   render() {
@@ -15,17 +16,26 @@ class Charles extends Component {
               Flume
             </Link>
             <Link className="links" to="/Porter">
-              Porter
+              Porter Robinson
             </Link>
             <Link className="links" to="/Charles">
               CharlestheFirst
             </Link>
-            <Link className="links" to="/ZedsDead">
-              Zeds Dead
+            <Link className="links" to="/Kaskade">
+              Kaskade
+            </Link>
+            <Link className="links" to="/Madeon">
+              Madeon
             </Link>
           </section>
           <div className="content">
             <h2 className="name">CharlestheFirst</h2>
+            <hr />
+            <div className="album">
+              <p>CharlestheFirst</p>
+              <img className="image" src={charles} alt="album cover" />
+              <p>Album info</p>
+            </div>
           </div>
           <footer>
             <Link className="links" to="/">

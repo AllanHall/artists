@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import jamie from '../images/jamie.png'
+import kaskade from '../images/kaskade.jpg'
 
-class JamieXX extends Component {
+class Kaskade extends Component {
   render() {
     return (
       <>
@@ -29,11 +29,11 @@ class JamieXX extends Component {
             </Link>
           </section>
           <div className="content">
-            <h2 className="name">Jamie XX</h2>
+            <h2 className="name">Kaskade</h2>
             <hr />
             <div className="album">
-              <p>Jamie XX</p>
-              <img className="image" src={jamie} alt="album cover" />
+              <p>Kaskade</p>
+              <img className="image" src={kaskade} alt="album cover" />
               <p>Album info</p>
             </div>
           </div>
@@ -48,4 +48,4 @@ class JamieXX extends Component {
   }
 }
 
-export default JamieXX
+export default Kaskade
